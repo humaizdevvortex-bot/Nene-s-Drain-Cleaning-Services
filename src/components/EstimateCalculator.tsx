@@ -22,53 +22,53 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
   const { low, high, timeEstimate, description } = useMemo(() => {
     let baseLow = 120;
     let baseHigh = 195;
-    let time = "45 mins – 1.5 Hours";
+    let time = "45 mins to 1.5 Hours";
     let desc = "Single sink, tub or shower drain mechanical snaking.";
 
     if (serviceCategory === 'drain') {
       if (scopeTier === 'standard') {
         baseLow = 110;
         baseHigh = 185;
-        time = "45 mins – 1.5 Hours";
+        time = "45 mins to 1.5 Hours";
         desc = "Single fixture clog (kitchen sink, tub, or shower drain snaking).";
       } else if (scopeTier === 'major') {
         baseLow = 220;
         baseHigh = 340;
-        time = "1.5 – 2.5 Hours";
+        time = "1.5 to 2.5 Hours";
         desc = "Whole-home mainline sewer blockage snaked from exterior cleanout.";
       } else {
         baseLow = 350;
         baseHigh = 550;
-        time = "2 – 4 Hours";
+        time = "2 to 4 Hours";
         desc = "Heavy commercial root/grease obstruction with motorized cutting head.";
       }
     } else if (serviceCategory === 'toilet') {
       if (scopeTier === 'standard') {
         baseLow = 95;
         baseHigh = 165;
-        time = "30 mins – 1 Hour";
+        time = "30 mins to 1 Hour";
         desc = "Urgent toilet unclogging or foreign object retrieval (toys/wipes).";
       } else if (scopeTier === 'major') {
         baseLow = 185;
         baseHigh = 280;
-        time = "1.5 – 2 Hours";
+        time = "1.5 to 2 Hours";
         desc = "Toilet rebuild, fill valve, wax ring seal replacement & leak stop.";
       } else {
         baseLow = 275;
         baseHigh = 420;
-        time = "2 – 3 Hours";
+        time = "2 to 3 Hours";
         desc = "Complete removal of old toilet & fresh new porcelain toilet installation.";
       }
     } else if (serviceCategory === 'grease') {
       if (scopeTier === 'standard') {
         baseLow = 195;
         baseHigh = 290;
-        time = "1.5 – 2 Hours";
+        time = "1.5 to 2 Hours";
         desc = "Routine commercial floor drain and kitchen mop sink cleaning.";
       } else if (scopeTier === 'major') {
         baseLow = 320;
         baseHigh = 480;
-        time = "2 – 3.5 Hours";
+        time = "2 to 3.5 Hours";
         desc = "Commercial sewer line hydro-jetting & main restaurant grease pipe flush.";
       } else {
         baseLow = 450;
@@ -80,12 +80,12 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
       if (scopeTier === 'standard') {
         baseLow = 145;
         baseHigh = 240;
-        time = "1 – 1.5 Hours";
+        time = "1 to 1.5 Hours";
         desc = "Thermostat, heating element, or pressure relief valve diagnostics & swap.";
       } else if (scopeTier === 'major') {
         baseLow = 380;
         baseHigh = 580;
-        time = "2.5 – 4 Hours";
+        time = "2.5 to 4 Hours";
         desc = "Complete water heater tank replacement labor with hurricane strapping.";
       } else {
         baseLow = 590;
@@ -97,17 +97,17 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
       if (scopeTier === 'standard') {
         baseLow = 110;
         baseHigh = 185;
-        time = "1 – 1.5 Hours";
+        time = "1 to 1.5 Hours";
         desc = "Exposed pipe joint repair, shutoff valve replacement, or dripping faucet.";
       } else if (scopeTier === 'major') {
         baseLow = 220;
         baseHigh = 360;
-        time = "2 – 3 Hours";
+        time = "2 to 3 Hours";
         desc = "In-wall shower valve replacement, copper torch soldering, or cistern line fix.";
       } else {
         baseLow = 380;
         baseHigh = 600;
-        time = "3 – 5 Hours";
+        time = "3 to 5 Hours";
         desc = "Complex hidden leak detection under structure or rain cistern feed repair.";
       }
     }
@@ -136,7 +136,7 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
       service: serviceName,
       scope: scopeTier,
       isEmergency: isEmergencyTime,
-      priceRange: `$${low} – $${high}`
+      priceRange: `$${low} to $${high}`
     });
   };
 
@@ -237,7 +237,7 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
                   <div className="text-xs">
                     <div className="font-bold flex items-center gap-1.5">
                       <AlertTriangle className="w-3.5 h-3.5 text-red-400" />
-                      <span>Sunday or Active Overflow Emergency Dispatch (+ $45 – $75)</span>
+                      <span>Sunday or Active Overflow Emergency Dispatch (+ $45 to $75)</span>
                     </div>
                     <div className="text-[11px] text-slate-400">
                       Priority immediate response for flooded bathrooms or backed-up restaurants
@@ -259,7 +259,7 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
                   }`}
                 >
                   <div className="text-xs">
-                    <div className="font-bold">Include Video Camera Inspection Reel (+ $65 – $95)</div>
+                    <div className="font-bold">Include Video Camera Inspection Reel (+ $65 to $95)</div>
                     <div className="text-[11px] text-slate-400">
                       High-definition sewer line probe to pinpoint root intrusions or cracked pipe sections
                     </div>
@@ -287,7 +287,7 @@ export const EstimateCalculator: React.FC<EstimateCalculatorProps> = ({ onPreloa
             {/* Price Numbers */}
             <div>
               <div className="text-4xl sm:text-5xl font-black text-white tabular-nums tracking-tight">
-                ${low} – ${high}
+                ${low} to ${high}
               </div>
               <p className="text-xs text-slate-400 mt-2">
                 Fair, upfront local rates without corporate franchise markups. Final firm quote confirmed before turning a wrench.

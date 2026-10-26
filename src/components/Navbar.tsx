@@ -8,10 +8,10 @@ export const Navbar: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
-      {/* Top Bar: Clean Uniform Styling (No Multi-colors as requested) */}
+      {/* Top Bar: Clean Uniform Styling (No Phone Number in Topbar) */}
       <div className="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div className="flex flex-wrap items-center gap-3 text-center sm:text-left justify-center sm:justify-start text-slate-300">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center sm:justify-between gap-2 text-slate-300">
+          <div className="flex flex-wrap items-center gap-3 text-center sm:text-left justify-center sm:justify-start">
             <span className="flex items-center gap-1.5 font-medium">
               <Star className="w-3.5 h-3.5 fill-current text-slate-400" />
               <span>{BUSINESS_INFO.rating} Rating (49+ Verified Google Reviews)</span>
@@ -28,14 +28,8 @@ export const Navbar: React.FC = () => {
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
-            <a 
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="text-white hover:text-red-400 font-bold text-xs flex items-center gap-1.5 transition-colors"
-            >
-              <Phone className="w-3.5 h-3.5 text-red-500 fill-current" />
-              <span>(305) 797-6477</span>
-            </a>
+          <div className="text-xs text-slate-400 hidden sm:block font-medium">
+            <span>Key West and Lower Florida Keys Dispatch</span>
           </div>
         </div>
       </div>

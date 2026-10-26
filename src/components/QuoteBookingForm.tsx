@@ -119,7 +119,7 @@ export const QuoteBookingForm: React.FC<QuoteBookingFormProps> = ({ preloadedEst
                 <div><strong>Address:</strong> 1510 Josephine Street, Key West, FL 33040</div>
                 <div><strong>Direct Cell / Dispatch:</strong> <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="text-red-600 font-bold hover:underline">(305) 797-6477</a></div>
                 <div><strong>Alternate Line:</strong> (305) 294-8936</div>
-                <div><strong>Regular Hours:</strong> Mon–Fri 9 AM – 4 PM | Sat–Sun 9 AM – 5 PM</div>
+                <div><strong>Regular Hours:</strong> Mon-Fri 9 AM to 4 PM | Sat-Sun 9 AM to 5 PM</div>
                 <div className="text-red-700 font-bold">24/7 Emergency Dispatch for Floods & Sewer Backups</div>
               </div>
 
@@ -137,7 +137,7 @@ export const QuoteBookingForm: React.FC<QuoteBookingFormProps> = ({ preloadedEst
             {/* Owner Note */}
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 italic">
               "I answer calls personally and make sure you receive honest, punctual, and reliable service at a fair price without surprise charges."
-              <span className="block not-italic font-bold text-slate-800 mt-1">— Daniel Pumar, Owner</span>
+              <span className="block not-italic font-bold text-slate-800 mt-1">Daniel Pumar, Owner</span>
             </div>
           </div>
 

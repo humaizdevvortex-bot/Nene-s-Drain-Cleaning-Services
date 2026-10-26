@@ -29,7 +29,7 @@ export const BUSINESS_INFO: BusinessConfig = {
   experienceYears: "20+ Years Family-Owned Legacy",
   rating: 4.9,
   reviewCount: 49,
-  hours: "Monday – Friday: 9:00 AM – 4:00 PM | Saturday – Sunday: 9:00 AM – 5:00 PM",
+  hours: "Monday to Friday: 9:00 AM to 4:00 PM | Saturday to Sunday: 9:00 AM to 5:00 PM",
   emergencyNotice: "24/7 Emergency Dispatch for Toilet Floods, Mainline Backups & Burst Pipes",
   serviceAreas: [
     "Key West",
@@ -74,7 +74,7 @@ export const SERVICES: ServiceItem[] = [
       { label: "Pricing", value: "Fair, Upfront Honest Rates" }
     ],
     idealFor: "Homeowners, vacation rentals, guest houses, and Key West condos",
-    verifiedPricingNote: "Reviews report typical small fixes starting around $100–$200"
+    verifiedPricingNote: "Reviews report typical small fixes starting around $100 to $200"
   },
   {
     id: "sewer-grease",
@@ -195,7 +195,7 @@ export const REAL_REVIEWS: VerifiedReview[] = [
     rating: 5,
     content: "Wow!!!!! Daniel came out right away- handled my VIP clients RV with the utmost care! This is a great company and he’s got a great name! Your father taught you well! I cannot RAVE enough about this company!! Highly recommend and now HOORAY TO THE BEST PLUMBERS IN THE KEYS!!! Thank you so much for helping me out with speedy service and integrity!!!!!",
     servicesListed: ["Drain cleaning", "Plumbing inspection"],
-    priceTag: "Great price ($1–100)"
+    priceTag: "Great price ($1 to $100)"
   },
   {
     author: "Liz Goldstone",
@@ -238,7 +238,7 @@ export const REAL_REVIEWS: VerifiedReview[] = [
     badge: "Sugarloaf Key Homeowner",
     timeAgo: "2 years ago",
     rating: 5,
-    content: "My family and I just recently purchased a home in Sugarloaf Key and had a couple problems coming from the bathroom (smell, toilet not shutting off and shower valve). We were referred to Daniel at Nene's drain cleaning and THANK GOD we did! We had gone through two other companies that were outrageous. Daniel resolved every issue we had and went above and beyond—1/3 of what they would have charged! 10 out of 10 Daniel GREAT JOB!",
+    content: "My family and I just recently purchased a home in Sugarloaf Key and had a couple problems coming from the bathroom (smell, toilet not shutting off and shower valve). We were referred to Daniel at Nene's drain cleaning and THANK GOD we did! We had gone through two other companies that were outrageous. Daniel resolved every issue we had and went above and beyond, at 1/3 of what they would have charged! 10 out of 10 Daniel GREAT JOB!",
     servicesListed: ["Plumbing repair", "Leak detection", "Shower valve rebuild"],
     priceTag: "1/3 cost of competitors"
   },
@@ -265,6 +265,6 @@ export const REAL_REVIEWS: VerifiedReview[] = [
     timeAgo: "8 months ago",
     rating: 5,
     content: "I have a garden sprinkler system which works off of gutters that go into my cistern beneath the house. Four different plumbing companies could not get it working correctly until Nene's drain cleaning services. They trouble shot in several visits until they located the specific multiple problems. And my plants are extremely happy they did a terrific job.",
-    priceTag: "Great price ($100–200)"
+    priceTag: "Great price ($100 to $200)"
   }
 ];

@@ -62,7 +62,7 @@ export const AboutSection: React.FC = () => {
             <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 text-sm text-slate-700 italic leading-relaxed shadow-xs">
               "Daniel was exceptionally thoughtful as well as very professional. He even took our grandchild’s naptime into consideration which went above and beyond regular service calls! Solved our issues in no time."
               <span className="block not-italic font-bold text-slate-900 text-xs mt-2">
-                — Liz Goldstone, Verified Key West Homeowner Review
+                Liz Goldstone, Verified Key West Homeowner Review
               </span>
             </div>
 
@@ -70,7 +70,7 @@ export const AboutSection: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
               <div className="flex items-start gap-2.5 text-xs text-slate-700">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                <span><strong>Direct Owner Access:</strong> Speak directly to Daniel—no call centers or salesmen.</span>
+                <span><strong>Direct Owner Access:</strong> Speak directly to Daniel without call centers or salesmen.</span>
               </div>
               <div className="flex items-start gap-2.5 text-xs text-slate-700">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />

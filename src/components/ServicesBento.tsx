@@ -63,7 +63,7 @@ export const ServicesBento: React.FC<ServicesBentoProps> = ({ onSelectService })
                 </div>
                 <div className="flex items-start gap-2 text-xs text-slate-700">
                   <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                  <span>Reviews cite typical small fixes $100–$200</span>
+                  <span>Reviews cite typical small fixes $100 to $200</span>
                 </div>
               </div>
             </div>

@@ -53,7 +53,7 @@ export const ServiceAreaBanner: React.FC = () => {
             <div className="space-y-2 text-xs text-slate-300">
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-red-400 shrink-0" />
-                <span>Regular Hours: Mon–Fri 9AM–4PM | Sat–Sun 9AM–5PM</span>
+                <span>Regular Hours: Mon-Fri 9AM-4PM | Sat-Sun 9AM-5PM</span>
               </div>
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />

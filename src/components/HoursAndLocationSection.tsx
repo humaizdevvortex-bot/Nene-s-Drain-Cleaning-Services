@@ -127,12 +127,15 @@ export const HoursAndLocationSection: React.FC = () => {
               </div>
             </div>
 
-            {/* Google Map Real Verification Screenshot from User */}
-            <div className="relative rounded-2xl overflow-hidden border border-slate-300 shadow-sm bg-white aspect-16/9 flex items-center justify-center group">
-              <img
-                src="/assets/aistudio/image_99c4dfb3.png"
-                alt="Google Maps Location 1510 Josephine St Key West FL"
-                className="w-full h-full object-cover object-left"
+            {/* Real Interactive Google Map */}
+            <div className="relative rounded-2xl overflow-hidden border border-slate-300 shadow-sm bg-slate-100 min-h-[300px] flex flex-col group">
+              <iframe
+                title="Nene's Drain Cleaning Services Location Map"
+                src="https://maps.google.com/maps?q=1510+Josephine+St,+Key+West,+FL+33040&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                className="w-full h-[300px] sm:h-[320px] border-0"
+                loading="lazy"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
               />
 
               {/* Overlay Directions Link */}
@@ -140,7 +143,7 @@ export const HoursAndLocationSection: React.FC = () => {
                 href={BUSINESS_INFO.googleMapsUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="absolute bottom-3 right-3 bg-white/95 hover:bg-white text-slate-900 font-bold text-xs px-3.5 py-2 rounded-xl shadow-md border border-slate-200 flex items-center gap-1.5 transition-all"
+                className="absolute bottom-3 right-3 bg-white hover:bg-slate-50 text-slate-900 font-bold text-xs px-3.5 py-2 rounded-xl shadow-md border border-slate-200 flex items-center gap-1.5 transition-all hover:scale-105"
               >
                 <Navigation className="w-3.5 h-3.5 text-blue-600" />
                 <span>Get Directions on Google Maps</span>

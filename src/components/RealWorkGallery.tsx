@@ -14,7 +14,7 @@ interface GalleryItem {
 const ALL_GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "van-daniel",
-    title: "Daniel In The Service Van — Ready for Dispatch",
+    title: "Daniel In The Service Van (Ready for Dispatch)",
     category: "fleet",
     src: "/assets/aistudio/imgi_21_HLfJ6Vamum_8f79cdf4.webp",
     location: "Key West, FL",
@@ -113,7 +113,7 @@ const ALL_GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "island-heritage",
-    title: "Born & Raised in Key West — Local Florida Keys Roots",
+    title: "Born & Raised in Key West: Local Florida Keys Roots",
     category: "fleet",
     src: "/assets/aistudio/imgi_5_iYeRVHhNH5_017883fd.webp",
     location: "Key West Sandbar, FL",
@@ -143,7 +143,7 @@ export const RealWorkGallery: React.FC = () => {
             See Daniel & Nene’s Fleet In Action Across Key West.
           </h2>
           <p className="mt-3 text-base text-slate-600 leading-relaxed">
-            Every photo shown below is from actual Key West job sites—commercial restaurant jetting on White & Southard St, bathroom valve torch soldering, parking stack rooting, and service vans.
+            Every photo shown below is from actual Key West job sites: commercial restaurant jetting on White & Southard St, bathroom valve torch soldering, parking stack rooting, and service vans.
           </p>
         </div>
 
