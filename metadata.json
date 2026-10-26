@@ -1,0 +1,6 @@
+{
+  "name": "Nene's Drain Cleaning Services",
+  "description": "Key West & Lower Florida Keys premier drain clearing, sewer repair, water heater, and plumbing service by owner/operator Daniel Pumar. Fast emergency response.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
